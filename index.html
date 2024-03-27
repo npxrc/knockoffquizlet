@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Multiple Choice</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="score">
+            <span id="correct">12</span>
+            -
+            <span id="incorrect">1</span>
+            -
+            <span id="percentage">52%</span>%
+
+            <span id="testSets">
+                <button id="testSet1" onclick="switchToSet(1)">Test Set 1</button>
+                <button id="testSet2" onclick="switchToSet(2)">Test Set 2</button>
+                <button id="testSet3" onclick="switchToSet(3)">Test Set 3</button>
+            </span>
+        </div>
+        <div id="question"></div>
+        <div id="answersCont">
+            <div id="answer1" class="answerbox" onclick="checkAnswer(1)"><span></span></div>
+            <div id="answer2" class="answerbox" onclick="checkAnswer(2)"><span></span></div>
+            <div id="answer3" class="answerbox" onclick="checkAnswer(3)"><span></span></div>
+            <div id="answer4" class="answerbox" onclick="checkAnswer(4)"><span></span></div>
+        </div>
+        <!--scripts-->
+        <!--<script src="axios.min.js"></script>-->
+        <script src="script.js"></script>
+    </body>
+</html>
