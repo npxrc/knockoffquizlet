@@ -1,0 +1,39 @@
+<html lang="en" class=" nyqftyo idc0_350">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Save Local Pair</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="createPair" class="container" style="display: block;">
+            <h1>Save Local Pair</h1>
+            <p>This saves a pair locally. These changes do not save for everyone else.</p>
+            <hr>
+            <label for="input1" alt="the word simpleton">Word</label>
+            <input type="text" id="input1" placeholder="Enter the pairs word">
+
+            <label for="input2" alt="the definition imbecile">Definition</label>
+            <input type="text" id="input2" placeholder="Enter the pairs definition">
+            <br>
+            <br>
+            <hr>
+
+            <button onclick="saveToLocalStorage()">Save Locally</button>
+            <button id="switchMode" onclick="switchMode()">Remove Pair</button>
+            <button id="back" onclick="back()">Back</button><br>
+        </div>
+        <div id="removePair" class="container" style="display: none;">
+            <h1>Remove Pair</h1>
+            <p>This deletes a locally saved pair.</p>
+            <hr><br>
+            <div id="listOPairs">
+                No pairs saved.
+            </div>
+            <br>
+            <button id="back" onclick="switchMode()">Back</button>
+        </div>
+        <!--Scripts-->
+        <script src="script.js"></script>
+    </body>
+</html>

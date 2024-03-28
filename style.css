@@ -43,17 +43,6 @@ body{
     padding: 25px;
     margin-left: 2vw;
 }
-#score{
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    height: 1.5vmax;
-    text-align: center;
-}
-#score>span{
-    margin: 5px;
-}
 @media screen and (max-width: 500px){
     #answersCont{
         width: 90%;
@@ -79,7 +68,26 @@ body{
         font-size: 4vmax;
     }
 }
+#score{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 1.5vmax;
+    text-align: center;
+}
+#score>span{
+    margin: 5px;
+}
+#score>button{
+    cursor: pointer;
+}
 #testSets{
     position: fixed;
-    right: 0;
+    right: 5px;
+}
+#updatePairs{
+    position: fixed;
+    top: 5px;
+    left: 5px;
 }

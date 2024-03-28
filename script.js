@@ -1,3 +1,7 @@
+function updatePairs(){
+    alert('Feature not functional yet, proceed without the expectation that it works.')
+    location.href="./updatepairs/"
+}
 let correctAnswerWord;
 function $(e){return document.getElementById(e)}
 function wait(timeout, fn){
@@ -17,6 +21,7 @@ function switchToSet(e){
     incorrectNum=0;
 }
 function load(){
+    disabled=false;
     $('correct').innerHTML=correctNum;
     $('incorrect').innerHTML=incorrectNum;
     let percentage=((correctNum/(correctNum+incorrectNum))*100).toFixed(2);
@@ -82,13 +87,15 @@ function checkAnswer(boxIndex){
 
 let correctNum = 0;
 let incorrectNum = 0;
-
+let audio = new Audio('correct.mp3');
+let disabled=false;
 function correct(){
+    if (disabled) return;
     if (actuallyClicked){
         actuallyClicked=false;
+        disabled=true;
         $('question').innerHTML="Correct!"
         correctNum++;
-        let audio = new Audio('correct.mp3');
         audio.play();
         wait('2.5s', load);
     }
