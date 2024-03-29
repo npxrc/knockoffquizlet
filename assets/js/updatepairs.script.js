@@ -1,8 +1,29 @@
 function $(e){return document.getElementById(e)}
+window.onload=()=>{
+    setRemovable()
+    $('input1').value="";
+    $('input2').value="";
+    $('input1').focus();
+    $('input1').addEventListener('keydown', (event)=>{
+        if (event.key=="Enter"){
+            $('input2').focus()
+        }
+    })
+    $('input2').addEventListener('keydown', (event)=>{
+        if (event.key=="Enter"){
+            saveToLocalStorage()
+        }
+    })
+}
 function saveToLocalStorage() {
     // Get values from input fields
     const input1Value = document.getElementById('input1').value;
     const input2Value = document.getElementById('input2').value;
+
+    if (input1Value.length<2||input2Value.length<4){
+        alert('enter real words bruh');
+        return;
+    }
 
     // Retrieve existing data from local storage
     let otherPairs = localStorage.getItem('otherPairs');
@@ -23,6 +44,10 @@ function saveToLocalStorage() {
     localStorage.setItem('otherPairs', JSON.stringify(otherPairs));
 
     alert('Pair saved locally!');
+    setRemovable();
+    $('input1').value="";
+    $('input2').value="";
+    $('input1').focus()
 }
 function back(){
     let toGo = document.createElement('a');
@@ -76,7 +101,6 @@ function setRemovable() {
         }
     }
 }
-setRemovable()
 function removeAttempt(index) {
     let previousAttempts = localStorage.getItem('otherPairs');
     previousAttempts = previousAttempts ? JSON.parse(previousAttempts) : [];

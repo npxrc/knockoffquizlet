@@ -30,14 +30,25 @@ body{
     border-radius: 0.8vmax;
     transition: all 250ms ease;
     text-align: center;
+    font-size: 1.5vmax;
 }
 .answerbox:active{
     scale: 0.95;
     background-color: rgb(100, 100, 130);
 }
+#question{
+    position: fixed;
+    top: 10vh;
+    font-size: 2.5vmax;
+    padding: 25px;
+    margin-left: 2vw;
+}
 @media screen and (max-width: 500px){
     #answersCont{
-        width: 90% !important;
+        width: 90%;
+    }
+    #question, .answerbox{
+        font-size: 5vmax;
     }
 }
 @media screen and (max-width: 300px){
@@ -45,9 +56,38 @@ body{
         gap: 5px;
     }
 }
-@media screen and (min-height: 800px){
+@media screen and (max-width: 800px){
     #answersCont{
         height: 150px;
         bottom: 12.5vh;
     }
+    #question{
+        font-size: 5vmax;
+    }
+    .answerbox{
+        font-size: 4vmax;
+    }
+}
+#score{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 1.5vmax;
+    text-align: center;
+}
+#score>span{
+    margin: 5px;
+}
+#score>button{
+    cursor: pointer;
+}
+#testSets{
+    position: fixed;
+    right: 5px;
+}
+#updatePairs{
+    position: fixed;
+    top: 5px;
+    left: 5px;
 }
