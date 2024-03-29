@@ -91,3 +91,12 @@ label{
         width: 90vw;
     }
 }
+@media only screen and (max-width: 1000px){
+    .container{
+        height: 70vh;
+        width: 80vw;
+    }
+    button{
+        width: 90%;
+    }
+}

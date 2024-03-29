@@ -1,0 +1,64 @@
+{
+	"dictionary": [
+		{
+			"word":"helicase",
+			"definition": "the enzyme which \"unzips\" the original DNA strand"
+		},
+		{
+			"word":"single-strand-binding proteins",
+			"definition": "prevents the DNA from supercoiling"
+		},
+		{
+			"word":"okazaki fragments",
+			"definition": "forms the lagging strand because polymerase can only run in the 3' to 5' direction"
+		},
+		{
+			"word":"interphase",
+			"definition": "the stage of the cell cycle in which DNA replication occurs"
+		},
+		{
+			"word":"ligase",
+			"definition": "the enzyme which \"glues\" the strands together"
+		},
+		{
+			"word":"primase",
+			"definition": "the enzyme which primes the strands with RNA so polymerase knows where to start"
+		},
+		{
+			"word":"polymerase 3",
+			"definition": "the enzyme which builds the strands"
+		},
+		{
+			"word":"polymerase 1",
+			"definition": "the enyzme which replaces RNA with DNA"
+		},
+		{
+			"word":"DNA",
+			"definition": "a sugar which is pentagon shaped"
+		},
+		{
+			"word":"leading strand",
+			"definition": "the continuous strand"
+		},
+		{
+			"word":"lagging strand",
+			"definition": "the non-continuous strand"
+		},
+		{
+			"word": "cytosine",
+			"definition":"guanine pairs with:"
+		},
+		{
+			"word": "thymine",
+			"definition":"adenine pairs with:"
+		},
+		{
+			"word": "guanine",
+			"definition":"cytosine pairs with:"
+		},
+		{
+			"word": "adenine",
+			"definition":"thymine pairs with:"
+		}
+	]
+}

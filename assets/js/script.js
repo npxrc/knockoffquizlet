@@ -20,7 +20,21 @@ function switchToSet(e){
     correctNum=0;
     incorrectNum=0;
 }
-
+function shuffle(array) {
+    let currentIndex = array.length;
+  
+    // While there remain elements to shuffle...
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element...
+      let randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+}
 function load(){
     disabled=false;
     $('correct').innerHTML=correctNum;
@@ -32,16 +46,11 @@ function load(){
         const element = $(`answer${i}`);
         element.classList.remove('correct');
     }
-    let set = localStorage.getItem('set');
-    if (set==null){
-        set=1
-        localStorage.setItem('set', set)
-    } else{
-        set=Math.floor(set)
-    }
-    fetch(`../sets/testset${set}.json`).then(response => response.json()).then(data => {
-        const definitions = data.dictionary;
-        const shuffledDefinitions = definitions.sort(() => Math.random() - 0.5);
+    localStorage.removeItem('set')
+    fetch(`../sets/set.json`).then(response => response.json()).then(data => {
+        let definitions = data.dictionary;
+        console.log(data.dictionary.length)
+        shuffle(definitions)
     
         // Pick a random definition
         const randomIndex = Math.floor(Math.random() * definitions.length);
@@ -53,7 +62,7 @@ function load(){
                 return;
             }
         }
-        shuffledDefinitions.splice(randomIndex, 1)
+        definitions.splice(randomIndex, 1)
     
         // Set the question
         $('question').textContent = selectedDefinition.definition;
@@ -69,7 +78,7 @@ function load(){
         for (let i = 1; i <= 4; i++) {
             if (i !== correctAnswerIndex) {
             const otherAnswerElement = $(`answer${i}`);
-            otherAnswerElement.querySelector('span').textContent = shuffledDefinitions[otherAnswersIndex].word;
+            otherAnswerElement.querySelector('span').textContent = definitions[otherAnswersIndex].word;
             otherAnswersIndex++;
             }
         }
@@ -113,17 +122,28 @@ function correct(){
             }
         }
         audio.play();
-        wait('2.5s', load);
+        wait('1s', load);
     }
 }
 function incorrect(){
+    if (disabled) return;
     if (actuallyClicked){
         actuallyClicked=false;
         let currentVal = $('question').innerHTML;
         incorrectNum++;
         $('question').innerHTML="Incorrect, try again..."
-        wait('2.5s', () => {
+        wait('1s', () => {
             $('question').innerHTML = currentVal;
         });
     }
 }
+
+setInterval(() => {
+    if (window.innerWidth<850){
+        $('mobileMenu').classList.remove('hidden')
+        $('score').classList.contains('hidden')?null:$('score').classList.add('hidden');
+    } else{
+        $('mobileMenu').classList.contains('hidden')?null:$('mobileMenu').classList.add('hidden');
+        $('score').classList.remove('hidden')
+    }
+}, 10);
