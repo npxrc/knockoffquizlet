@@ -1,64 +1,148 @@
 {
-	"dictionary": [
-		{
-			"word":"helicase",
-			"definition": "the enzyme which \"unzips\" the original DNA strand"
-		},
-		{
-			"word":"single-strand-binding proteins",
-			"definition": "prevents the DNA from supercoiling"
-		},
-		{
-			"word":"okazaki fragments",
-			"definition": "forms the lagging strand because polymerase can only run in the 3' to 5' direction"
-		},
-		{
-			"word":"interphase",
-			"definition": "the stage of the cell cycle in which DNA replication occurs"
-		},
-		{
-			"word":"ligase",
-			"definition": "the enzyme which \"glues\" the strands together"
-		},
-		{
-			"word":"primase",
-			"definition": "the enzyme which primes the strands with RNA so polymerase knows where to start"
-		},
-		{
-			"word":"polymerase 3",
-			"definition": "the enzyme which builds the strands"
-		},
-		{
-			"word":"polymerase 1",
-			"definition": "the enyzme which replaces RNA with DNA"
-		},
-		{
-			"word":"DNA",
-			"definition": "a sugar which is pentagon shaped"
-		},
-		{
-			"word":"leading strand",
-			"definition": "the continuous strand"
-		},
-		{
-			"word":"lagging strand",
-			"definition": "the non-continuous strand"
-		},
-		{
-			"word": "cytosine",
-			"definition":"guanine pairs with:"
-		},
-		{
-			"word": "thymine",
-			"definition":"adenine pairs with:"
-		},
-		{
-			"word": "guanine",
-			"definition":"cytosine pairs with:"
-		},
-		{
-			"word": "adenine",
-			"definition":"thymine pairs with:"
-		}
-	]
+    "dictionary":[
+        {
+            "word": "vegetables",
+            "definition": "das Gemüse"
+        },
+        {
+            "word": "bean",
+            "definition": "die Bohne"
+        },
+        {
+            "word": "cauliflower",
+            "definition": "der Blumenkohl"
+        },
+        {
+            "word": "broccoli",
+            "definition": "der Brokkoli"
+        },
+        {
+            "word": "cucumber",
+            "definition": "die Gurke"
+        },
+        {
+            "word": "potato",
+            "definition": "die Kartoffel"
+        },
+        {
+            "word": "garlic",
+            "definition": "der Knoblauch"
+        },
+        {
+            "word": "corn",
+            "definition": "der Mais"
+        },
+        {
+            "word": "mushrooms",
+            "definition": "der Pilz / die Champignons"
+        },
+        {
+            "word": "lettuce",
+            "definition": "der Salat"
+        },
+        {
+            "word": "spinach",
+            "definition": "der Spinat"
+        },
+        {
+            "word": "asparagus",
+            "definition": "der Spargel"
+        },
+        {
+            "word": "onion",
+            "definition": "die Zwiebel"
+        },
+        {
+            "word": "carrot",
+            "definition": "die Karotte / die Möhre"
+        },
+        {
+            "word": "peas",
+            "definition": "die Erbse"
+        },
+        {
+            "word": "Brussels sprouts",
+            "definition": "der Rosenkohl"
+        },
+        {
+            "word": "kale",
+            "definition": "der Grünkohl"
+        },
+        {
+            "word": "fruit",
+            "definition": "das Obst"
+        },
+        {
+            "word": "pineapple",
+            "definition": "die Ananas"
+        },
+        {
+            "word": "apple",
+            "definition": "der Apfel"
+        },
+        {
+            "word": "orange",
+            "definition": "die Apfelsine / die Orange"
+        },
+        {
+            "word": "blackberries",
+            "definition": "die Brombeere"
+        },
+        {
+            "word": "banana",
+            "definition": "die Banane"
+        },
+        {
+            "word": "pear",
+            "definition": "die Birne"
+        },
+        {
+            "word": "strawberry",
+            "definition": "die Erdbeere"
+        },
+        {
+            "word": "raspberry",
+            "definition": "die Himbeere"
+        },
+        {
+            "word": "blueberries",
+            "definition": "die Heidelbeere / die Blaubeere"
+        },
+        {
+            "word": "cherry",
+            "definition": "die Kirsche"
+        },
+        {
+            "word": "grapefruit",
+            "definition": "die Pampelmuse / das Grapefruit"
+        },
+        {
+            "word": "plum",
+            "definition": "die Pflaume / die Zwetschge"
+        },
+        {
+            "word": "peach",
+            "definition": "der Pfirsich"
+        },
+        {
+            "word": "grape",
+            "definition": "die Traube"
+        },
+        {
+            "word": "watermelon",
+            "definition": "die Wassermelon"
+        },
+        {
+            "word": "lemon",
+            "definition": "die Zitrone"
+        },
+        {
+            "word": "delicious, tasty, yummy",
+            "definition": "lecker"
+        },
+        {
+            "word": "tomato",
+            "definition": "die Tomate"
+        }
+    ]
 }

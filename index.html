@@ -8,16 +8,28 @@
         <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     </head>
     <body>
-        <div id="mobileMenu" class="hidden">
-            <button id="mobileUpdatePairs" onclick="updatePairs()">Change Pairs</button>
+        <div id="mobileMenuContainer">
+            <select name="mobileMenu" id="mobileMenu">
+                <option value="nothing" checked="true">Menu</option>
+                <option value="changepairs">Change Pairs</option>
+                <option value="forkjittrippin">Fork me on GitHub!</option>
+            </select>
         </div>
-        <div id="score">
+        <br>
+        <div id="mobileScore">
+            <span id="correctMobile"></span>
+            -
+            <span id="incorrectMobile"></span>
+            -
+            <span id="percentageMobile"></span>%
+        </div>
+        <div id="desktopScore">
             <button id="updatePairs" onclick="updatePairs()">Change Pairs</button>
-            <span id="correct">12</span>
+            <span id="correct"></span>
             -
-            <span id="incorrect">1</span>
+            <span id="incorrect"></span>
             -
-            <span id="percentage">52%</span>%
+            <span id="percentage"></span>%
         </div>
         <div id="question"></div>
         <div id="answersCont">
@@ -26,10 +38,10 @@
             <div id="answer3" class="answerbox" onclick="checkAnswer(3)"><span></span></div>
             <div id="answer4" class="answerbox" onclick="checkAnswer(4)"><span></span></div>
         </div>
+        <!--scripts-->
+        <script src="./assets/js/script.js"></script>
         <div id="credits">
             <a href="mailto:neilpatrao@duck.com">Made by Neil Patrao</a>
         </div>
-        <!--scripts-->
-        <script src="./assets/js/script.js"></script>
     </body>
 </html>

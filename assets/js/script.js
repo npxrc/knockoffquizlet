@@ -39,9 +39,12 @@ function load(){
     disabled=false;
     $('correct').innerHTML=correctNum;
     $('incorrect').innerHTML=incorrectNum;
+    $('correctMobile').innerHTML=correctNum;
+    $('incorrectMobile').innerHTML=incorrectNum;
     let percentage=((correctNum/(correctNum+incorrectNum))*100).toFixed(2);
     isNaN(percentage)?percentage=0:percentage=parseFloat(percentage)
     $('percentage').innerHTML=percentage
+    $('percentageMobile').innerHTML=percentage
     for (let i = 1; i <= 4; i++) {
         const element = $(`answer${i}`);
         element.classList.remove('correct');
@@ -140,10 +143,22 @@ function incorrect(){
 
 setInterval(() => {
     if (window.innerWidth<850){
-        $('mobileMenu').classList.remove('hidden')
-        $('score').classList.contains('hidden')?null:$('score').classList.add('hidden');
+        document.body.classList.add('mobile')
     } else{
-        $('mobileMenu').classList.contains('hidden')?null:$('mobileMenu').classList.add('hidden');
-        $('score').classList.remove('hidden')
+        document.body.classList.remove('mobile')
     }
 }, 10);
+$('mobileMenu').querySelector('option').click()
+setInterval(() => {
+    $('mobileMenu').value="nothing"
+}, 1);
+$('mobileMenu').addEventListener('change',(event)=>{
+    if ($('mobileMenu').value=="changepairs"){
+        updatePairs()
+    } else if ($('mobileMenu').value=="forkjittrippin"){
+        window.open('https://github.com/npxrc/knockoffquizlet')
+        .catch((e)=>{
+            location.replace('https://github.com/npxrc/knockoffquizlet')
+        })
+    }
+})
