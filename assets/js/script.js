@@ -156,9 +156,6 @@ $('mobileMenu').addEventListener('change',(event)=>{
     if ($('mobileMenu').value=="changepairs"){
         updatePairs()
     } else if ($('mobileMenu').value=="forkjittrippin"){
-        window.open('https://github.com/npxrc/knockoffquizlet')
-        .catch((e)=>{
-            location.replace('https://github.com/npxrc/knockoffquizlet')
-        })
+        location.href="https://github.com/npxrc/knockoffquizlet"
     }
 })
