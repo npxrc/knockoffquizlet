@@ -35,7 +35,49 @@ function shuffle(array) {
         array[randomIndex], array[currentIndex]];
     }
 }
+let hasAccessKey = false;
+if (localStorage.getItem('accessKey')=="german"){
+    hasAccessKey=true;
+} else{
+    $('accessKey').style.display="block"
+    $('question').style.display="none";
+    $('answersCont').style.display="none";
+    $('mobileMenuContainer').style.display="none";
+    $('mobileScore').style.display="none";
+    $('desktopScore').style.display="none";
+}
+function submitAccessKey(){
+    let key=$('accessKeyInput').value
+    if (key.length==0){
+        alert('Please enter an access key.')
+        return
+    }
+    if (key=="german"){
+        localStorage.setItem('accessKey', key)
+        hasAccessKey=true;
+        $('accessKey').style.display="none"
+        $('question').style.display="block";
+        $('answersCont').style.display="block";
+        $('mobileMenuContainer').style.display="block";
+        $('mobileScore').style.display="block";
+        $('desktopScore').style.display="block";
+        load()
+    } else{
+        alert('Invalid access key.')
+    }
+}
 function load(){
+    if (!hasAccessKey){
+        $('accessKey').style.display="block"
+        $('question').style.display="none";
+        $('answersCont').style.display="none";
+        $('mobileMenuContainer').style.display="none";
+        $('mobileScore').style.display="none";
+        $('desktopScore').style.display="none";
+        return;
+    } else{
+        $('accessKey').style.display="none"
+    }
     disabled=false;
     $('correct').innerHTML=correctNum;
     $('incorrect').innerHTML=incorrectNum;
