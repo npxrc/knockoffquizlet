@@ -192,7 +192,7 @@ setInterval(() => {
 }, 1);
 $('mobileMenu').addEventListener('change',(event)=>{
     if ($('mobileMenu').value=="changepairs"){
-        updatePairs()
+        alert("no")
     } else if ($('mobileMenu').value=="forkjittrippin"){
         location.href="https://github.com/npxrc/knockoffquizlet"
     }
