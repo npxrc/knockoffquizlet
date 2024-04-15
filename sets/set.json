@@ -1,148 +1,284 @@
 {
     "dictionary":[
         {
-            "word": "vegetables",
-            "definition": "das Gemüse"
+            "word":"assuage",
+            "definition":"to calm, to ease, to make less severe"
         },
         {
-            "word": "bean",
-            "definition": "die Bohne"
+            "word":"piety",
+            "definition":"devotion and reverence to God"
         },
         {
-            "word": "cauliflower",
-            "definition": "der Blumenkohl"
+            "word":"dictum",
+            "definition":"an order or command from an authority"
         },
         {
-            "word": "broccoli",
-            "definition": "der Brokkoli"
+            "word":"taciturn",
+            "definition":"quiet, reserved"
         },
         {
-            "word": "cucumber",
-            "definition": "die Gurke"
+            "word":"quaint",
+            "definition":"unusual in a charming way"
         },
         {
-            "word": "potato",
-            "definition": "die Kartoffel"
+            "word":"malevolent",
+            "definition":"evil"
         },
         {
-            "word": "garlic",
-            "definition": "der Knoblauch"
+            "word":"predilection",
+            "definition":"preference"
         },
         {
-            "word": "corn",
-            "definition": "der Mais"
+            "word":"domicile",
+            "definition":"A home; residence"
         },
         {
-            "word": "mushrooms",
-            "definition": "der Pilz / die Champignons"
+            "word":"profane",
+            "definition":"showing contempt toward sacred things"
         },
         {
-            "word": "lettuce",
-            "definition": "der Salat"
+            "word":"terrain",
+            "definition":"of the earth or relating to the earth"
         },
         {
-            "word": "spinach",
-            "definition": "der Spinat"
+            "word":"indigenous",
+            "definition":"native to a certain area"
         },
         {
-            "word": "asparagus",
-            "definition": "der Spargel"
+            "word":"diminutive",
+            "definition":"small, miniature"
         },
         {
-            "word": "onion",
-            "definition": "die Zwiebel"
+            "word":"fractious",
+            "definition":"unruly; out of control; breaking the peace"
         },
         {
-            "word": "carrot",
-            "definition": "die Karotte / die Möhre"
+            "word":"disapprobation",
+            "definition":"disapproval; condemnation"
         },
         {
-            "word": "peas",
-            "definition": "die Erbse"
+            "word":"auspicious",
+            "definition":"favorable"
         },
         {
-            "word": "Brussels sprouts",
-            "definition": "der Rosenkohl"
+            "word":"palette",
+            "definition":"board on which a painter mixes paints"
         },
         {
-            "word": "kale",
-            "definition": "der Grünkohl"
+            "word":"benevolence",
+            "definition":"kindness, generosity"
         },
         {
-            "word": "fruit",
-            "definition": "das Obst"
+            "word":"hone",
+            "definition":"to sharpen; to make more effective"
         },
         {
-            "word": "pineapple",
-            "definition": "die Ananas"
+            "word":"caricature",
+            "definition":"a portrayal where features are exaggerated"
         },
         {
-            "word": "apple",
-            "definition": "der Apfel"
+            "word":"inordinate",
+            "definition":"exceeding reasonable limits, excessive"
         },
         {
-            "word": "orange",
-            "definition": "die Apfelsine / die Orange"
+            "word":"ingenious",
+            "definition":"inventive, clever, brilliant"
         },
         {
-            "word": "blackberries",
-            "definition": "die Brombeere"
+            "word":"innate",
+            "definition":"existing from birth"
         },
         {
-            "word": "banana",
-            "definition": "die Banane"
+            "word":"guileless",
+            "definition":"without deceit"
         },
         {
-            "word": "pear",
-            "definition": "die Birne"
+            "word":"fanatic",
+            "definition":"one that is extremely enthusiastic or zealous"
         },
         {
-            "word": "strawberry",
-            "definition": "die Erdbeere"
+            "word":"tentative",
+            "definition":"uncertain, not fully worked out or confirmed"
         },
         {
-            "word": "raspberry",
-            "definition": "die Himbeere"
+            "word":"rudiment",
+            "definition":"an essential element or skill, also the early stages of development"
         },
         {
-            "word": "blueberries",
-            "definition": "die Heidelbeere / die Blaubeere"
+            "word":"articulate",
+            "definition":"to speak distinctly; expressing oneself clearly"
         },
         {
-            "word": "cherry",
-            "definition": "die Kirsche"
+            "word":"melancholy",
+            "definition":"depression of spirits"
         },
         {
-            "word": "grapefruit",
-            "definition": "die Pampelmuse / das Grapefruit"
+            "word":"palliate",
+            "definition":"to ease pain, guilt or intensity"
         },
         {
-            "word": "plum",
-            "definition": "die Pflaume / die Zwetschge"
+            "word":"rectitude",
+            "definition":"state of moral integrity"
         },
         {
-            "word": "peach",
-            "definition": "der Pfirsich"
+            "word":"tranquil",
+            "definition":"peaceful, calm"
         },
         {
-            "word": "grape",
-            "definition": "die Traube"
+            "word":"protrude",
+            "definition":"to stick out"
         },
         {
-            "word": "watermelon",
-            "definition": "die Wassermelon"
+            "word":"propensity",
+            "definition":"preference, natural inclination"
         },
         {
-            "word": "lemon",
-            "definition": "die Zitrone"
+            "word":"frivolous",
+            "definition":"Lacking in seriousness or importance"
         },
         {
-            "word": "delicious, tasty, yummy",
-            "definition": "lecker"
+            "word":"propel",
+            "definition":"to drive or push forward"
         },
         {
-            "word": "tomato",
-            "definition": "die Tomate"
+            "word":"formidable",
+            "definition":"menacing, causing fear or awe"
+        },
+        {
+            "word":"obilque",
+            "definition":"slanting, indirect, evasive, devious, misleading"
+        },
+        {
+            "word":"edification",
+            "definition":"spiritual, moral or intellectual improvement"
+        },
+        {
+            "word":"reverent",
+            "definition":"honorable, regarding with respect"
+        },
+        {
+            "word":"infallible",
+            "definition":"incapable of error"
+        },
+        {
+            "word":"placid",
+            "definition":"calm, peaceful"
+        },
+        {
+            "word":"begrudge",
+            "definition":"to give reluctantly, to envy a possession or one's enjoyment"
+        },
+        {
+            "word":"ominous",
+            "definition":"threatening"
+        },
+        {
+            "word":"vivid",
+            "definition":"bright, distinct, and clear"
+        },
+        {
+            "word":"oblivion",
+            "definition":"state of being forgotten"
+        },
+        {
+            "word":"succinct",
+            "definition":"brief and compact"
+        },
+        {
+            "word":"acquiesce",
+            "definition":"to give in, to comply"
+        },
+        {
+            "word":"elucidate",
+            "definition":"to make clear, to explain"
+        },
+        {
+            "word":"unobtrusive",
+            "definition":"not readily noticeable, inconspicuous"
+        },
+        {
+            "word":"turbulence",
+            "definition":"wild or disturbing activity"
+        },
+        {
+            "word":"corroboration",
+            "definition":"confirmation"
+        },
+        {
+            "word":"congenital",
+            "definition":"existing from birth or dating at birth"
+        },
+        {
+            "word":"acrimonious",
+            "definition":"caustic, bitter"
+        },
+        {
+            "word":"serene",
+            "definition":"calm or placid or tranquil"
+        },
+        {
+            "word":"complacency",
+            "definition":"the state of being self-satisfied"
+        },
+        {
+            "word":"stealthy",
+            "definition":"acting in a secret and sneaky way"
+        },
+        {
+            "word":"impudent",
+            "definition":"disrespectful, characterized by improper bold behavior"
+        },
+        {
+            "word":"fraudulent",
+            "definition":"deceitful; portrayed as genuine but is really an imposter"
+        },
+        {
+            "word":"arid",
+            "definition":"very dry"
+        },
+        {
+            "word":"unmitigated",
+            "definition":"absolute, not made less severe or intense"
+        },
+        {
+            "word":"temerity",
+            "definition":"boldness that is reckless"
+        },
+        {
+            "word":"furtive",
+            "definition":"secret in an underhanded way"
+        },
+        {
+            "word":"sordid",
+            "definition":"filthy, foul"
+        },
+        {
+            "word":"drone",
+            "definition":"speaking in a monotonous tone; a continuous low humming sound"
+        },
+        {
+            "word":"impertinent",
+            "definition":"insolently rude, not within the proper bounds of good taste or manners"
+        },
+        {
+            "word":"recluse",
+            "definition":"a person who lives in solitude, a hermit"
+        },
+        {
+            "word":"enunciate",
+            "definition":"to pronounce clearly"
+        },
+        {
+            "word":"savory",
+            "definition":"appetizing"
+        },
+        {
+            "word":"irascible",
+            "definition":"irritable, easily angered, cranky, cross"
+        },
+        {
+            "word":"lament",
+            "definition":"to mourn or to express sorrow in a demonstrative manner"
         }
     ]
 }
