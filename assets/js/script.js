@@ -1,7 +1,3 @@
-function updatePairs(){
-    alert('Feature not functional yet, proceed without the expectation that it works.')
-    location.href="./updatepairs/"
-}
 let correctAnswerWord;
 function $(e){return document.getElementById(e)}
 function wait(timeout, fn){
@@ -36,7 +32,7 @@ function shuffle(array) {
     }
 }
 let hasAccessKey = false;
-if (localStorage.getItem('accessKey')=="german"){
+if (localStorage.getItem('accessKey')=="english"){
     hasAccessKey=true;
 } else{
     $('accessKey').style.display="block"
@@ -52,7 +48,7 @@ function submitAccessKey(){
         alert('Please enter an access key.')
         return
     }
-    if (key=="german"){
+    if (key=="english"){
         localStorage.setItem('accessKey', key)
         hasAccessKey=true;
         $('accessKey').style.display="none"
