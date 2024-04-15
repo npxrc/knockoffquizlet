@@ -9,13 +9,7 @@ function wait(timeout, fn){
     console.log(milliseconds)
     setTimeout(fn, milliseconds); // Pass fn without invoking it
 }
-function switchToSet(e){
-    let set=e
-    localStorage.setItem('set', set)
-    load()
-    correctNum=0;
-    incorrectNum=0;
-}
+
 function shuffle(array) {
     let currentIndex = array.length;
   
@@ -51,13 +45,7 @@ function submitAccessKey(){
     if (key=="english"){
         localStorage.setItem('accessKey', key)
         hasAccessKey=true;
-        $('accessKey').style.display="none"
-        $('question').style.display="block";
-        $('answersCont').style.display="block";
-        $('mobileMenuContainer').style.display="block";
-        $('mobileScore').style.display="block";
-        $('desktopScore').style.display="block";
-        load()
+        location.reload()
     } else{
         alert('Invalid access key.')
     }
