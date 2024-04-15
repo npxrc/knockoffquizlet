@@ -37,7 +37,7 @@ if (localStorage.getItem('accessKey')=="english"){
     $('desktopScore').style.display="none";
 }
 function submitAccessKey(){
-    let key=$('accessKeyInput').value
+    let key=$('accessKeyInput').value.toLowerCase()
     if (key.length==0){
         alert('Please enter an access key.')
         return
