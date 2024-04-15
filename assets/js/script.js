@@ -1,5 +1,15 @@
-let correctAnswerWord;
 function $(e){return document.getElementById(e)}
+
+$('accessKeyInput').addEventListener('keydown', function(e){
+    if (e.key=="Enter"){
+        submitAccessKey()
+    }
+})
+
+function forkMe(){
+    window.open('https://github.com/npxrc/knockoffquizlet')
+}
+
 function wait(timeout, fn){
     let seconds = parseFloat(timeout);
     if (timeout.endsWith('s')) {
@@ -10,19 +20,20 @@ function wait(timeout, fn){
     setTimeout(fn, milliseconds); // Pass fn without invoking it
 }
 
+let correctAnswerWord;
+
 function shuffle(array) {
     let currentIndex = array.length;
-  
+    
     // While there remain elements to shuffle...
     while (currentIndex != 0) {
-  
-      // Pick a remaining element...
-      let randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-  
-      // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
+        
+        // Pick a remaining element...
+        let randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
     }
 }
 let hasAccessKey = false;
@@ -78,7 +89,6 @@ function load(){
     localStorage.removeItem('set')
     fetch(`../sets/set.json`).then(response => response.json()).then(data => {
         let definitions = data.dictionary;
-        console.log(data.dictionary.length)
         shuffle(definitions)
     
         // Pick a random definition
@@ -179,9 +189,7 @@ setInterval(() => {
     $('mobileMenu').value="nothing"
 }, 1);
 $('mobileMenu').addEventListener('change',(event)=>{
-    if ($('mobileMenu').value=="changepairs"){
-        alert("no")
-    } else if ($('mobileMenu').value=="forkjittrippin"){
+    if ($('mobileMenu').value=="forkjittrippin"){
         location.href="https://github.com/npxrc/knockoffquizlet"
     }
 })
