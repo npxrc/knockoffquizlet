@@ -1,364 +1,120 @@
 {
-    "dictionary":[
-        {
-            "word":"assuage",
-            "definition":"to calm, to ease, to make less severe"
-        },
-        {
-            "word":"piety",
-            "definition":"devotion and reverence to God"
-        },
-        {
-            "word":"dictum",
-            "definition":"an order or command from an authority"
-        },
-        {
-            "word":"taciturn",
-            "definition":"quiet, reserved"
-        },
-        {
-            "word":"quaint",
-            "definition":"unusual in a charming way"
-        },
-        {
-            "word":"malevolent",
-            "definition":"evil"
-        },
-        {
-            "word":"predilection",
-            "definition":"preference"
-        },
-        {
-            "word":"domicile",
-            "definition":"a home; residence"
-        },
-        {
-            "word":"profane",
-            "definition":"showing contempt toward sacred things"
-        },
-        {
-            "word":"terrain",
-            "definition":"of the earth or relating to the earth"
-        },
-        {
-            "word":"indigenous",
-            "definition":"native to a certain area"
-        },
-        {
-            "word":"diminutive",
-            "definition":"small, miniature"
-        },
-        {
-            "word":"fractious",
-            "definition":"unruly; out of control; breaking the peace"
-        },
-        {
-            "word":"disapprobation",
-            "definition":"disapproval; condemnation"
-        },
-        {
-            "word":"auspicious",
-            "definition":"favorable"
-        },
-        {
-            "word":"palette",
-            "definition":"board on which a painter mixes paints"
-        },
-        {
-            "word":"benevolence",
-            "definition":"kindness, generosity"
-        },
-        {
-            "word":"hone",
-            "definition":"to sharpen; to make more effective"
-        },
-        {
-            "word":"caricature",
-            "definition":"a portrayal where features are exaggerated"
-        },
-        {
-            "word":"inordinate",
-            "definition":"exceeding reasonable limits, excessive"
-        },
-        {
-            "word":"ingenious",
-            "definition":"inventive, clever, brilliant"
-        },
-        {
-            "word":"innate",
-            "definition":"existing from birth"
-        },
-        {
-            "word":"guileless",
-            "definition":"without deceit"
-        },
-        {
-            "word":"fanatic",
-            "definition":"one that is extremely enthusiastic or zealous"
-        },
-        {
-            "word":"tentative",
-            "definition":"uncertain, not fully worked out or confirmed"
-        },
-        {
-            "word":"rudiment",
-            "definition":"an essential element or skill, also the early stages of development"
-        },
-        {
-            "word":"articulate",
-            "definition":"to speak distinctly; expressing oneself clearly"
-        },
-        {
-            "word":"melancholy",
-            "definition":"depression of spirits"
-        },
-        {
-            "word":"palliate",
-            "definition":"to ease pain, guilt or intensity"
-        },
-        {
-            "word":"rectitude",
-            "definition":"state of moral integrity"
-        },
-        {
-            "word":"tranquil",
-            "definition":"peaceful, calm"
-        },
-        {
-            "word":"protrude",
-            "definition":"to stick out"
-        },
-        {
-            "word":"propensity",
-            "definition":"preference, natural inclination"
-        },
-        {
-            "word":"frivolous",
-            "definition":"Lacking in seriousness or importance"
-        },
-        {
-            "word":"propel",
-            "definition":"to drive or push forward"
-        },
-        {
-            "word":"formidable",
-            "definition":"menacing, causing fear or awe"
-        },
-        {
-            "word":"obilque",
-            "definition":"slanting, indirect, evasive, devious, misleading"
-        },
-        {
-            "word":"edification",
-            "definition":"spiritual, moral or intellectual improvement"
-        },
-        {
-            "word":"reverent",
-            "definition":"honorable, regarding with respect"
-        },
-        {
-            "word":"infallible",
-            "definition":"incapable of error"
-        },
-        {
-            "word":"placid",
-            "definition":"calm, peaceful"
-        },
-        {
-            "word":"begrudge",
-            "definition":"to give reluctantly, to envy a possession or one's enjoyment"
-        },
-        {
-            "word":"ominous",
-            "definition":"threatening"
-        },
-        {
-            "word":"vivid",
-            "definition":"bright, distinct, and clear"
-        },
-        {
-            "word":"oblivion",
-            "definition":"state of being forgotten"
-        },
-        {
-            "word":"succinct",
-            "definition":"brief and compact"
-        },
-        {
-            "word":"acquiesce",
-            "definition":"to give in, to comply"
-        },
-        {
-            "word":"elucidate",
-            "definition":"to make clear, to explain"
-        },
-        {
-            "word":"unobtrusive",
-            "definition":"not readily noticeable, inconspicuous"
-        },
-        {
-            "word":"turbulence",
-            "definition":"wild or disturbing activity"
-        },
-        {
-            "word":"corroboration",
-            "definition":"confirmation"
-        },
-        {
-            "word":"congenital",
-            "definition":"existing from birth or dating at birth"
-        },
-        {
-            "word":"acrimonious",
-            "definition":"caustic, bitter"
-        },
-        {
-            "word":"serene",
-            "definition":"calm or placid or tranquil"
-        },
-        {
-            "word":"complacency",
-            "definition":"the state of being self-satisfied"
-        },
-        {
-            "word":"stealthy",
-            "definition":"acting in a secret and sneaky way"
-        },
-        {
-            "word":"impudent",
-            "definition":"disrespectful, characterized by improper bold behavior"
-        },
-        {
-            "word":"fraudulent",
-            "definition":"deceitful; portrayed as genuine but is really an imposter"
-        },
-        {
-            "word":"arid",
-            "definition":"very dry"
-        },
-        {
-            "word":"unmitigated",
-            "definition":"absolute, not made less severe or intense"
-        },
-        {
-            "word":"temerity",
-            "definition":"boldness that is reckless"
-        },
-        {
-            "word":"furtive",
-            "definition":"secret in an underhanded way"
-        },
-        {
-            "word":"sordid",
-            "definition":"filthy, foul"
-        },
-        {
-            "word":"drone",
-            "definition":"speaking in a monotonous tone; a continuous low humming sound"
-        },
-        {
-            "word":"impertinent",
-            "definition":"insolently rude, not within the proper bounds of good taste or manners"
-        },
+    "dictionary": [
+        {
+            "word": "priggish",
+            "definition": "straight-laced, stuffy"
+        }, 
+        {
+            "word": "rambunctious",
+            "definition": "loud, annoying"
+        }, 
+        {
+            "word": "rash",
+            "definition": "loud"
+        }, 
+        {
+            "word": "raucous",
+            "definition": "loud, crazy"
+        }, 
         {
-            "word":"recluse",
-            "definition":"a person who lives in solitude, a hermit"
-        },
+            "word": "reverent",
+            "definition": "honorable"
+        }, 
         {
-            "word":"enunciate",
-            "definition":"to pronounce clearly"
-        },
+            "word": "sardonic",
+            "definition": "bitterly sarcastic"
+        }, 
         {
-            "word":"savory",
-            "definition":"appetizing"
-        },
+            "word": "satirical",
+            "definition": "funny"
+        }, 
         {
-            "word":"irascible",
-            "definition":"irritable, easily angered, cranky, cross"
-        },
+            "word": "sophomoric",
+            "definition": "immature and overconfident"
+        }, 
         {
-            "word":"lament",
-            "definition":"to mourn or to express sorrow in a demonstrative manner"
-        },
+            "word": "tractable",
+            "definition": "easily managed or controlled"
+        }, 
         {
-            "word":"austere",
-            "definition":"Strict"
-        },
+            "word": "allusion",
+            "definition": "a reference to a well-known person, place, event, literary work, or work of art"
+        }, 
         {
-            "word":"biased",
-            "definition":"favoritism"
-        },
+            "word": "hyperbole",
+            "definition": "a deliberate exaggeration or overstatement"
+        }, 
         {
-            "word":"crude",
-            "definition":"Rude"
-        },
+            "word": "litotes",
+            "definition": "a form of understatement in which a thing is affirmed by stating the negative of its opposite"
+        }, 
         {
-            "word":"disillusioned",
-            "definition":"depressed and disappointed"
-        },
+            "word": "diction",
+            "definition": "word choice"
+        }, 
         {
-            "word":"disparaging",
-            "definition":"expressive of low opinion"
-        },
+            "word": "syntax",
+            "definition": "the physical arrangement of words in a sentence"
+        }, 
         {
-            "word":"dubious",
-            "definition":"suspicious"
-        },
+            "word": "ellipsis",
+            "definition": "the deliberate omission of a word or words that are readily implied by the context and by the parallel structure"
+        }, 
         {
-            "word":"familial",
-            "definition":"family"
-        },
+            "word": "conjecture",
+            "definition": "an opinion or conclusion formed on the basis of incomplete information"
+        }, 
         {
-            "word":"hypercritical",
-            "definition":"overcritical; too severe in judgement"
-        },
+            "word": "antithesis (antithetical)",
+            "definition": "a direct contrast of structurally parallel word grouping generally for the purpose of contrast"
+        }, 
         {
-            "word":"impudent",
-            "definition":"rude"
-        },
+            "word": "synecdoche",
+            "definition": "a form of metaphor in which a part of something is used to stand for the whole thing"
+        }, 
         {
-            "word":"judicious",
-            "definition":"serious, wise"
-        },
+            "word": "metonymy",
+            "definition": "a figure of speech in which the name of one object is substituted for that of another closely associated with it."
+        }, 
         {
-            "word":"objective",
-            "definition":"looking towards a goal"
-        },
+            "word": "oxymoron",
+            "definition": "a two-word figure of speech that combines two opposing ideas"
+        }, 
         {
-            "word":"priggish",
-            "definition":"straight-laced, stuffy"
-        },
+            "word": "paradox",
+            "definition": "an assertion seemingly opposed to common sense, but that may yet have some truth in it"
+        }, 
         {
-            "word":"rambunctious",
-            "definition":"Loud, annoying"
-        },
+            "word": "anomaly",
+            "definition": "something that deviates from what is standard, normal, or expected"
+        }, 
         {
-            "word":"rash",
-            "definition":"Loud"
-        },
+            "word": "query",
+            "definition": "a question, especially one addressed to an official or organization."
+        }, 
         {
-            "word":"raucous",
-            "definition":"Loud, crazy"
-        },
+            "word": "syllogism",
+            "definition": "a form of deductive reasoning consisting of a major premise, a minor premise, and a conclusion."
+        }, 
         {
-            "word":"reverent",
-            "definition":"Honorable"
-        },
+            "word": "parallelism (balanced sentences)",
+            "definition": "the repetition of grammatical structure"
+        }, 
         {
-            "word":"sardonic",
-            "definition":"bitterly sarcastic"
-        },
+            "word": "tone",
+            "definition": "the writers attitude toward the audience and subject"
+        }, 
         {
-            "word":"satirical",
-            "definition":"funny"
-        },
+            "word": "understatement",
+            "definition": "saying less than is actually meant, generally in an ironic way"
+        }, 
         {
-            "word":"sophomoric",
-            "definition":"immature and overconfident"
-        },
+            "word": "analogy",
+            "definition": "an explanation based upon a comparison that explains or describes on subject by pointing out its similarities to another subject"
+        }, 
         {
-            "word":"tractable",
-            "definition":"easily managed or controlled"
+            "word": "rhetorical strategies/devices",
+            "definition": "ways to study or analyze language"
         }
     ]
 }
