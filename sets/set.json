@@ -30,7 +30,7 @@
         },
         {
             "word":"domicile",
-            "definition":"A home; residence"
+            "definition":"a home; residence"
         },
         {
             "word":"profane",
@@ -279,6 +279,86 @@
         {
             "word":"lament",
             "definition":"to mourn or to express sorrow in a demonstrative manner"
+        },
+        {
+            "word":"austere",
+            "definition":"Strict"
+        },
+        {
+            "word":"biased",
+            "definition":"favoritism"
+        },
+        {
+            "word":"crude",
+            "definition":"Rude"
+        },
+        {
+            "word":"disillusioned",
+            "definition":"depressed and disappointed"
+        },
+        {
+            "word":"disparaging",
+            "definition":"expressive of low opinion"
+        },
+        {
+            "word":"dubious",
+            "definition":"suspicious"
+        },
+        {
+            "word":"familial",
+            "definition":"family"
+        },
+        {
+            "word":"hypercritical",
+            "definition":"overcritical; too severe in judgement"
+        },
+        {
+            "word":"impudent",
+            "definition":"rude"
+        },
+        {
+            "word":"judicious",
+            "definition":"serious, wise"
+        },
+        {
+            "word":"objective",
+            "definition":"looking towards a goal"
+        },
+        {
+            "word":"priggish",
+            "definition":"straight-laced, stuffy"
+        },
+        {
+            "word":"rambunctious",
+            "definition":"Loud, annoying"
+        },
+        {
+            "word":"rash",
+            "definition":"Loud"
+        },
+        {
+            "word":"raucous",
+            "definition":"Loud, crazy"
+        },
+        {
+            "word":"reverent",
+            "definition":"Honorable"
+        },
+        {
+            "word":"sardonic",
+            "definition":"bitterly sarcastic"
+        },
+        {
+            "word":"satirical",
+            "definition":"funny"
+        },
+        {
+            "word":"sophomoric",
+            "definition":"immature and overconfident"
+        },
+        {
+            "word":"tractable",
+            "definition":"easily managed or controlled"
         }
     ]
 }
