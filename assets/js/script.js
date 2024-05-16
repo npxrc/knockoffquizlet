@@ -189,7 +189,7 @@ setInterval(() => {
     $('mobileMenu').value="nothing"
 }, 1);
 $('mobileMenu').addEventListener('change',(event)=>{
-    if ($('mobileMenu').value=="forkjittrippin"){
+    if ($('mobileMenu').value=="mobileFork"){
         location.href="https://github.com/npxrc/knockoffquizlet"
     }
 })
