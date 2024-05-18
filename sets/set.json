@@ -1,324 +1,329 @@
 {
     "dictionary": [
         {
-            "word" :"Absolute",
-            "definition": "A term applied to anything that cannot be modified, qualified, or limited. "
+            "word" :"absolute",
+            "definition": "a term applied to anything that cannot be modified, qualified, or limited. "
         },
         {
-            "word" :"Allegory",
-            "definition": "A story with a hidden or symbolic meaning "
+            "word" :"allegory",
+            "definition": "a story with a hidden or symbolic meaning "
         },
         {
-            "word" :"Alliteration",
-            "definition": "The purposeful repetition of initial consonant sounds."
+            "word" :"alliteration",
+            "definition": "the purposeful repetition of initial consonant sounds."
         },
         {
-            "word" :"Allusion",
-            "definition": "A reference to a well-known person, place, event, literary work, or work of art."
+            "word" :"allusion",
+            "definition": "a reference to a well-known person, place, event, literary work, or work of art."
         },
         {
-            "word" :"Analogy",
-            "definition": "An explanation based upon a comparison that explains or describes one subject by pointing out its similarities to another subject."
+            "word" :"analogy",
+            "definition": "an explanation based upon a comparison that explains or describes one subject by pointing out its similarities to another subject."
         },
         {
-            "word" :"Anaphora",
-            "definition": "One of the devices of repetition, in which the same expression (word or words) is repeated for effect at the beginning of two or more lines, clauses, or sentences"
+            "word" :"anaphora",
+            "definition": "one of the devices of repetition, in which the same expression (word or words) is repeated for effect at the beginning of two or more lines, clauses, or sentences"
         },
         {
-            "word" :"Anecdote",
-            "definition": "A short, often autobiographical, narrative told to achieve a purpose such as to provide an example, an illustration, or a thematic truth."
+            "word" :"anecdote",
+            "definition": "a short, often autobiographical, narrative told to achieve a purpose such as to provide an example, an illustration, or a thematic truth."
         },
         {
-            "word" :"Annotation",
-            "definition": "Explanatory notes added to a text to explain, cite sources, or give bibliographical data."
+            "word" :"annotation",
+            "definition": "explanatory notes added to a text to explain, cite sources, or give bibliographical data."
         },
         {
-            "word" :"Antagonist",
-            "definition": "The character or force that is in conflict with the protagonist in a narrative."
+            "word" :"antagonist",
+            "definition": "the character or force that is in conflict with the protagonist in a narrative."
         },
         {
-            "word" :"Aphorism",
-            "definition": "A statement of some general principle, expressed memorably by condensing much wisdom into few words. (âWithout pain there is no gain.â Benjamin Franklin) "
+            "word" :"aphorism",
+            "definition": "a statement of some general principle, expressed memorably by condensing much wisdom into few words. (\"Without pain there is no gain.\" Benjamin Franklin)"
         },
         {
-            "word" :"Apostrophe",
-            "definition": "A figure of speech in which a speaker directly addresses an inanimate object or an absent person or a personified quality. "
+            "word" :"apostrophe",
+            "definition": "a figure of speech in which a speaker directly addresses an inanimate object or an absent person or a personified quality. "
         },
         {
-            "word" :"Archetype",
-            "definition": "A term applied to an image, a descriptive detail, a plot pattern, or a character type that occurs frequently in literature, myth, religion, or folklore and is, therefore, believed to evoke profound emotion because it touches the unconscious memory and thus calls into play illogical but strong responses."
+            "word" :"archetype",
+            "definition": "a term applied to an image, a descriptive detail, a plot pattern, or a character type that occurs frequently in literature, myth, religion, or folklore and is, therefore, believed to evoke profound emotion because it touches the unconscious memory and thus calls into play illogical but strong responses."
         },
         {
-            "word" :"Assonance",
-            "definition": "The repetition of vowel sounds followed by different consonants in two or more stressed syllables.  "
+            "word" :"assonance",
+            "definition": "the repetition of vowel sounds followed by different consonants in two or more stressed syllables. "
         },
         {
-            "word" :"Asyndeton",
-            "definition": "Lack of conjunctions between coordinate phrases, clauses, or words.  Asyndeton takes the form of X, Y, Z as opposed to X, Y, and Z."
+            "word" :"asyndeton",
+            "definition": "lack of conjunctions between coordinate phrases, clauses, or words. asyndeton takes the form of x, y, z as opposed to x, y, and z."
         },
         {
-            "word" :"Characterization",
-            "definition": "The act of creating and developing a character."
+            "word" :"characterization",
+            "definition": "the act of creating and developing a character."
         },
         {
-            "word" :"Chiasmus",
-            "definition": "Parallel structure in inverted/mirror formâtwo corresponding pairs arranged not in parallels (a-b-a-b) but in inverted order (a-b-b-a)"
+            "word" :"chiasmus",
+            "definition": "parallel structure in inverted/mirror format; two corresponding pairs arranged not in parallels (a-b-a-b) but in inverted order (a-b-b-a)"
         },
         {
-            "word" :"Colloquialism",
-            "definition": "An expression used in informal conversation but not accepted universally in formal speech or writing"
+            "word" :"colloquialism",
+            "definition": "an expression used in informal conversation but not accepted universally in formal speech or writing"
         },
         {
-            "word" :"Conflict",
-            "definition": "The struggle that grows out of the interplay of two opposing forces, providing interest, suspense, and tension."
+            "word" :"conflict",
+            "definition": "the struggle that grows out of the interplay of two opposing forces, providing interest, suspense, and tension."
         },
         {
-            "word" :"Connotation",
-            "definition": "The set of associations that occur to people when they hear or read a word. "
+            "word" :"connotation",
+            "definition": "the set of associations that occur to people when they hear or read a word. "
         },
         {
-            "word" :"Consonance",
-            "definition": "The repetition of consonant sounds in two or more words."
+            "word" :"consonance",
+            "definition": "the repetition of consonant sounds in two or more words."
         },
         {
-            "word" :"Couplet",
-            "definition": "Two consecutive lines of poetry that rhyme and have the same meter."
+            "word" :"couplet",
+            "definition": "two consecutive lines of poetry that rhyme and have the same meter."
         },
         {
-            "word" :"Denotation",
-            "definition": "The dictionary meaning of a word. "
+            "word" :"denotation",
+            "definition": "the dictionary meaning of a word. "
         },
         {
-            "word" :"Dialect",
-            "definition": "The form of a language spoken by people in a particular region or group"
+            "word" :"dialect",
+            "definition": "the form of a language spoken by people in a particular region or group"
         },
         {
-            "word" :"Dialogue",
-            "definition": "A conversation between characters."
+            "word" :"dialogue",
+            "definition": "a conversation between characters."
         },
         {
-            "word" :"Diction",
-            "definition": "Word choice. To discuss a writer's diction is to consider the vocabulary used, the appropriateness of the words, and the vividness of the language."
+            "word" :"diction",
+            "definition": "word choice. to discuss a writer's diction is to consider the vocabulary used, the appropriateness of the words, and the vividness of the language."
         },
         {
-            "word" :"Direct characterization",
-            "definition": "Direct statement by the author of a character's traits."
+            "word" :"direct characterization",
+            "definition": "direct statement by the author of a character's traits."
         },
         {
-            "word" :"Dramatic irony",
-            "definition": "A contradiction between what a character thinks and what the reader or audience knows to be true."
+            "word" :"dramatic irony",
+            "definition": "a contradiction between what a character thinks and what the reader or audience knows to be true."
         },
         {
-            "word" :"Ellipsis",
-            "definition": "The deliberate omission of a word or words implied by the context and by the parallel structure. "
+            "word" :"ellipsis",
+            "definition": "the deliberate omission of a word or words implied by the context and by the parallel structure. "
         },
         {
             "word" :"ethos",
             "definition": "ethical appeal in rhetoric"
         },
         {
-            "word" :"Euphemism",
-            "definition": "A device where being indirect replaces directness to avoid embarrassment or unpleasantness. "
+            "word" :"euphemism",
+            "definition": "a device where being indirect replaces directness to avoid embarrassment or unpleasantness. "
         },
         {
-            "word" :"Exposition",
-            "definition": "Writing or speech that explains, informs, or presents information."
+            "word" :"exposition",
+            "definition": "writing or speech that explains, informs, or presents information."
         },
         {
-            "word" :"First-person narrator",
-            "definition": "A character in a story who is telling the story.  Readers see only what this character sees, hears, etc."
+            "word" :"first-person narrator",
+            "definition": "a character in a story who is telling the story. readers see only what this character sees, hears, etc."
         },
         {
-            "word" :"Flashback",
-            "definition": "A section of a literary work that interrupts the sequence of events to relate an event from an earlier time."
+            "word" :"flashback",
+            "definition": "a section of a literary work that interrupts the sequence of events to relate an event from an earlier time."
         },
         {
-            "word" :"Foil",
-            "definition": "A character who, through contrast, emphasizes the characteristics of another character."
+            "word" :"foil",
+            "definition": "a character who, through contrast, emphasizes the characteristics of another character."
         },
         {
-            "word" :"Foreshadowing",
-            "definition": "The use in a literary work of clues that suggest events that have yet to occur."
+            "word" :"foreshadowing",
+            "definition": "the use in a literary work of clues that suggest events that have yet to occur."
         },
         {
-            "word" :"Genre",
-            "definition": "A division or type of literature."
+            "word" :"genre",
+            "definition": "a division or type of literature."
         },
         {
-            "word" :"Hyperbole",
-            "definition": "A deliberate exaggeration or overstatement."
+            "word" :"hyperbole",
+            "definition": "a deliberate exaggeration or overstatement."
         },
         {
-            "word" :"Idiom",
-            "definition": "A use of words, a construction peculiar to a given language or an expression that cannot be translated literally into a second language."
+            "word" :"idiom",
+            "definition": "a use of words, a construction peculiar to a given language or an expression that cannot be translated literally into a second language."
         },
         {
-            "word" :"Image",
-            "definition": "A word or phrase that appeals to one or more of the five sensesâsight, hearing, touch, taste, or smell."
+            "word" :"image",
+            "definition": "a word or phrase that appeals to one or more of the five senses: sight, hearing, touch, taste, or smell."
         },
         {
-            "word" :"Imagery",
-            "definition": "The descriptive or figurative language used in literature appeal to one or more of the five senses."
+            "word" :"imagery",
+            "definition": "the descriptive or figurative language used in literature appeal to one or more of the five senses."
         },
         {
-            "word" :"Indirect characterization",
-            "definition": "A method of ? in which an author tells what a character looks like, does, and says and how other characters react to him or her.  It is up to the reader to draw conclusions about the character based on this ? information."
+            "word" :"independent clause",
+            "definition": "\"Jane ate pasta.\", \"Sam went to the park\" are examples because there isn't a second half relying on the first (e.g. Sam went to the park <u>because he likes the weather</u>)",
+            "type": "flashcard"
         },
         {
-            "word" :"Irony",
-            "definition": "The general name give to literary techniques that involve differences between appearance and reality, expectation and result, or meaning and intention"
+            "word" :"indirect characterization",
+            "definition": "a method of ? in which an author tells what a character looks like, does, and says and how other characters react to him or her. it is up to the reader to draw conclusions about the character based on this ? information."
         },
         {
-            "word" :"Juxtaposition",
-            "definition": "A poetic and rhetorical device in which normally unassociated ideas, words, or phrases are placed next to one another."
+            "word" :"irony",
+            "definition": "the general name give to literary techniques that involve differences between appearance and reality, expectation and result, or meaning and intention"
+        },
+        {
+            "word" :"juxtaposition",
+            "definition": "a poetic and rhetorical device in which normally unassociated ideas, words, or phrases are placed next to one another."
         },
         {
             "word" :"logos",
             "definition": "logical appeal in rhetoric"
         },
         {
-            "word" :"Metaphor",
-            "definition": "A figure of speech in which one thing is spoken of as though it were something else."
+            "word" :"metaphor",
+            "definition": "a figure of speech in which one thing is spoken of as though it were something else."
         },
         {
-            "word" :"Meter",
-            "definition": "A repeated pattern of rhythm in poetry."
+            "word" :"meter",
+            "definition": "a repeated pattern of rhythm in poetry."
         },
         {
-            "word" :"Monologue",
-            "definition": "A speech by one character in a play, story, or poem."
+            "word" :"monologue",
+            "definition": "a speech by one character in a play, story, or poem."
         },
         {
-            "word" :"Mood",
-            "definition": "The feeling created in the reader by a literary work or passage."
+            "word" :"mood",
+            "definition": "the feeling created in the reader by a literary work or passage."
         },
         {
-            "word" :"Motif",
-            "definition": "A motif is a recurring feature in the work."
+            "word" :"motif",
+            "definition": "a motif is a recurring feature in the work."
         },
         {
-            "word" :"Motivation",
-            "definition": "A reason that explains or partially explains a character's thoughts, feelings, actions, or behavior."
+            "word" :"motivation",
+            "definition": "a reason that explains or partially explains a character's thoughts, feelings, actions, or behavior."
         },
         {
-            "word" :"Narrative",
-            "definition": "A story told in fiction, nonfiction, poetry, or drama."
+            "word" :"narrative",
+            "definition": "a story told in fiction, nonfiction, poetry, or drama."
         },
         {
-            "word" :"Narrator",
-            "definition": "A speaker or character who tells a story.  The narrator may be either a character in the story or an outside observer."
+            "word" :"narrator",
+            "definition": "a speaker or character who tells a story. the narrator may be either a character in the story or an outside observer."
         },
         {
-            "word" :"Omniscient narrator",
-            "definition": "An all-knowing third-person narrator.  This type of narrator can reveal to readers what the characters think and feel."
+            "word" :"omniscient narrator",
+            "definition": "an all-knowing third-person narrator. this type of narrator can reveal to readers what the characters think and feel."
         },
         {
-            "word" :"Onomatopoeia",
-            "definition": "The use of words that imitate sounds."
+            "word" :"onomatopoeia",
+            "definition": "the use of words that imitate sounds."
         },
         {
-            "word" :"Oxymoron",
-            "definition": "A two-word figure of speech that combines two opposing or contradictory ideas."
+            "word" :"oxymoron",
+            "definition": "a two-word figure of speech that combines two opposing or contradictory ideas."
         },
         {
-            "word" :"Parallelism",
-            "definition": "The repetition of a grammatical structure."
+            "word" :"parallelism",
+            "definition": "the repetition of a grammatical structure."
         },
         {
-            "word" :"Pathos",
+            "word" :"pathos",
             "definition": "sympathetic appeal (emotional appeal) in rhetoric"
         },
         {
-            "word" :"Personification",
-            "definition": "A type of figurative language in which a nonhuman subject is given human characteristics."
+            "word" :"personification",
+            "definition": "a type of figurative language in which a nonhuman subject is given human characteristics."
         },
         {
-            "word" :"Persuasion",
-            "definition": "Writing or speech that attempts to convince the reader to adopt a particular opinion or course of action."
+            "word" :"persuasion",
+            "definition": "writing or speech that attempts to convince the reader to adopt a particular opinion or course of action."
         },
         {
-            "word" :"Point of view",
-            "definition": "The perspective from which a story is told."
+            "word" :"point of view",
+            "definition": "the perspective from which a story is told."
         },
         {
-            "word" :"Polysyndeton",
-            "definition": "The repetition of conjunctions in a series of coordinate words, phrases, or clauses. "
+            "word" :"polysyndeton",
+            "definition": "the repetition of conjunctions in a series of coordinate words, phrases, or clauses. "
         },
         {
-            "word" :"Protagonist",
-            "definition": "The main character in a narrative or drama."
+            "word" :"protagonist",
+            "definition": "the main character in a narrative or drama."
         },
         {
-            "word" :"Refute",
-            "definition": "To argue against."
+            "word" :"refute",
+            "definition": "to argue against."
         },
         {
-            "word" :"Rhetorical question",
-            "definition": "A question used for persuasion, to which the answer is obvious and usually only one answer is possible. "
+            "word" :"rhetorical question",
+            "definition": "a question used for persuasion, to which the answer is obvious and usually only one answer is possible. "
         },
         {
-            "word" :"Rhyme scheme",
-            "definition": "The pattern of end rhyme in a poem."
+            "word" :"rhyme scheme",
+            "definition": "the pattern of end rhyme in a poem."
         },
         {
-            "word" :"Satire",
-            "definition": "A style of writing that uses humorâsometimes gentle and sometimes bitingâto criticize people, ideas, or institutions in hopes of improving them."
+            "word" :"satire",
+            "definition": "a style of writing that uses humor, sometimes gentle and sometimes biting; to criticize people, ideas, or institutions in hopes of improving them."
         },
         {
-            "word" :"Sensory language",
-            "definition": "Writing or speech that appeals to one or more of the senses."
+            "word" :"sensory language",
+            "definition": "writing or speech that appeals to one or more of the senses."
         },
         {
-            "word" :"Setting",
-            "definition": "The time and place of the action of a literary work."
+            "word" :"setting",
+            "definition": "the time and place of the action of a literary work."
         },
         {
-            "word" :"Simile",
-            "definition": "A figure of speech in which like, as, or than is used to make a comparison between two basically unlike subjects."
+            "word" :"simile",
+            "definition": "a figure of speech in which like, as, or than is used to make a comparison between two basically unlike subjects."
         },
         {
-            "word" :"Situational irony",
-            "definition": "In this type of irony an event occurs that directly contrasts the expectations of the characters, the reader, or the audience."
+            "word" :"situational irony",
+            "definition": "in this type of irony an event occurs that directly contrasts the expectations of the characters, the reader, or the audience."
         },
         {
-            "word" :"Soliloquy",
-            "definition": "A speech by one character who is on stage alone, which is used to show the character's thoughts."
+            "word" :"soliloquy",
+            "definition": "a speech by one character who is on stage alone, which is used to show the character's thoughts."
         },
         {
-            "word" :"Sonnet",
-            "definition": "A fourteen line lyric poem, written in iambic pentameter and having one of several set rhyme schemes."
+            "word" :"sonnet",
+            "definition": "a fourteen line lyric poem, written in iambic pentameter and having one of several set rhyme schemes."
         },
         {
-            "word" :"Stanza",
-            "definition": "A group of lines of poetry."
+            "word" :"stanza",
+            "definition": "a group of lines of poetry."
         },
         {
-            "word" :"Symbol",
-            "definition": "An object that has its own meaning, but also represents an abstract idea. "
+            "word" :"symbol",
+            "definition": "an object that has its own meaning, but also represents an abstract idea. "
         },
         {
-            "word" :"Synecdoche",
-            "definition": "A form of metaphor in which a part of something is used to stand for the whole thing.  "
+            "word" :"synecdoche",
+            "definition": "a form of metaphor in which a part of something is used to stand for the whole thing. "
         },
         {
-            "word" :"Syntax",
-            "definition": "The physical arrangement of words in a sentence."
+            "word" :"syntax",
+            "definition": "the physical arrangement of words in a sentence."
         },
         {
-            "word" :"Theme",
-            "definition": "A central message or universal meaning revealed through the literary work. "
+            "word" :"theme",
+            "definition": "a central message or universal meaning revealed through the literary work. "
         },
         {
-            "word" :"Third-person narrator",
-            "definition": "An observer who tells only what one character sees and knows. "
+            "word" :"third-person narrator",
+            "definition": "an observer who tells only what one character sees and knows. "
         },
         {
-            "word" :"Tone",
-            "definition": "The writer's attitude toward the audience and subject.  "
+            "word" :"tone",
+            "definition": "the writer's attitude toward the audience and subject. "
         },
         {
-            "word" :"Verbal irony",
-            "definition": "A type of irony in which words are used to suggest the opposite of what is meant."
+            "word" :"verbal irony",
+            "definition": "a type of irony in which words are used to suggest the opposite of what is meant."
         }
     ]
 }

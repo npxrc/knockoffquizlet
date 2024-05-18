@@ -61,6 +61,19 @@ function submitAccessKey(){
         alert('Invalid access key.')
     }
 }
+function flipFlashCard(){
+    if ($('question').classList.contains('showingDef')){
+        $('question').classList.remove('showingDef')
+        $('question').classList.add('showingWord')
+
+        $('question').innerHTML=$('question').attributes.getNamedItem('word').value
+    } else if ($('question').classList.contains('showingWord')){
+        $('question').classList.remove('showingWord')
+        $('question').classList.add('showingDef')
+
+        $('question').innerHTML=$('question').attributes.getNamedItem('definition').value
+    }
+}
 function load(){
     if (!hasAccessKey){
         $('accessKey').style.display="block"
@@ -101,24 +114,41 @@ function load(){
                 return;
             }
         }
-        definitions.splice(randomIndex, 1)
-    
-        // Set the question
-        $('question').textContent = selectedDefinition.definition;
-    
-        // Set the correct answer
-        const correctAnswerIndex = Math.floor(Math.random() * 4) + 1; // Random index between 1-4
-        const correctAnswerElement = $(`answer${correctAnswerIndex}`);
-        correctAnswerElement.querySelector('span').textContent = selectedDefinition.word;
-        correctAnswerElement.classList.add('correct');
-    
-        // Set the other answers
-        let otherAnswersIndex = 0;
-        for (let i = 1; i <= 4; i++) {
-            if (i !== correctAnswerIndex) {
-            const otherAnswerElement = $(`answer${i}`);
-            otherAnswerElement.querySelector('span').textContent = definitions[otherAnswersIndex].word;
-            otherAnswersIndex++;
+        if (definitions[randomIndex].type=="flashcard"){
+            definitions.splice(randomIndex, 1)
+            $('question').setAttribute('word', correctAnswerWord)
+            $('question').innerHTML = selectedDefinition.definition;
+            $('question').addEventListener('click', flipFlashCard);
+            $('answer1').innerHTML="i understand this!!!"
+            $('question').classList.add('showingDef')
+            $('question').setAttribute('definition', selectedDefinition.definition)
+            $('answer1').classList.add('flashcard')
+            $('answer1').classList.add('correct')
+            $('answer2').style.visibility="hidden"
+            $('answer3').style.visibility="hidden"
+            $('answer4').style.visibility="hidden"
+        } else{
+            $('question').removeEventListener('click', flipFlashCard, true);
+            definitions.splice(randomIndex, 1)
+        
+            // Set the question
+            $('question').textContent = selectedDefinition.definition;
+        
+            // Set the correct answer
+            const correctAnswerIndex = Math.floor(Math.random() * 4) + 1; // Random index between 1-4
+            const correctAnswerElement = $(`answer${correctAnswerIndex}`);
+            correctAnswerElement.querySelector('span').textContent = selectedDefinition.word;
+            correctAnswerElement.classList.add('correct');
+            $('answer1').classList.remove('flashcard')
+        
+            // Set the other answers
+            let otherAnswersIndex = 0;
+            for (let i = 1; i <= 4; i++) {
+                if (i !== correctAnswerIndex) {
+                    const otherAnswerElement = $(`answer${i}`);
+                    otherAnswerElement.querySelector('span').textContent = definitions[otherAnswersIndex].word;
+                    otherAnswersIndex++;
+                }
             }
         }
     })

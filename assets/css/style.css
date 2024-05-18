@@ -203,3 +203,7 @@ button:active {
     scale: 0.9;
     animation: none;
 }
+
+#answer1.answerbox.flashcard{
+    width: 75vw;
+}
