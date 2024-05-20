@@ -191,12 +191,15 @@ function correct(){
         disabled=true;
         $('question').innerHTML="Correct!"
         correctNum++;
-        for (let i=1;i<5;i++){
-            if ($(`answer${i}`).classList.contains('correct')){
-                if (lastcorrect.length==maxLastCorrect) lastcorrect.splice(0,1);
-                lastcorrect.push($(`answer${i}`).querySelector('span').innerHTML)
+        try{
+            for (let i=1;i<5;i++){
+                if ($(`answer${i}`).classList.contains('correct')){
+                    if (lastcorrect.length==maxLastCorrect) lastcorrect.splice(0,1);
+                    lastcorrect.push($(`answer${i}`).querySelector('span').innerHTML)
+                }
             }
         }
+        catch (e){null;}
         if (!audioDisabled){
             audio.play();
         }
