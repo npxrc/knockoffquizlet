@@ -1,5 +1,12 @@
 function $(e){return document.getElementById(e)}
 
+let audioDisabled = false;
+if (localStorage.getItem('audioDisabled')=='true'){
+    audioDisabled=true;
+} else{
+    localStorage.setItem('audioDisabled', 'false')
+}
+
 $('accessKeyInput').addEventListener('keydown', function(e){
     if (e.key=="Enter"){
         submitAccessKey()
@@ -190,7 +197,9 @@ function correct(){
                 lastcorrect.push($(`answer${i}`).querySelector('span').innerHTML)
             }
         }
-        audio.play();
+        if (!audioDisabled){
+            audio.play();
+        }
         wait('1s', load);
     }
 }
@@ -221,5 +230,11 @@ setInterval(() => {
 $('mobileMenu').addEventListener('change',(event)=>{
     if ($('mobileMenu').value=="mobileFork"){
         location.href="https://github.com/npxrc/knockoffquizlet"
+    } else if ($('mobileMenu').value=="disableAudio"){
+        audioDisabled=true
+        localStorage.setItem('audioDisabled', true)
+    } else if($('mobileMenu').value=="enableAudio"){
+        audioDisabled=false
+        localStorage.setItem('audioDisabled', false)
     }
 })
